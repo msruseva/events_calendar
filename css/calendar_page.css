@@ -1,0 +1,61 @@
+body,fieldset {
+  margin:0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  font: 12px/20px  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+}
+
+.month_picker {
+  margin: 100px auto;
+  width: 600px;
+  text-align: center;
+}
+
+.month_picker_fieldset {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  background-color: #00b4b4;
+  border-radius: 20px;
+  margin: 30px;
+  box-shadow: 10px 10px 5px #007373;
+}
+
+.month_picker_fieldset input {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.month_picker_label {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 30px;
+  cursor: pointer;
+  position: relative;
+  padding: 0 7px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px black;
+}
+
+.month_picker_label:active {
+  color: #005050;
+  opacity: 10;
+  font-size: large;
+  border-radius: 30px;
+  background: none ;
+}
+
+.hello {
+  font-weight: bold;
+  font-size: xx-large;
+  color: #ff8000;
+  text-shadow: 1px 3px 3px #cc2900;
+}

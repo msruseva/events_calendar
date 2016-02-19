@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.calendar {
+  margin-top: 40px;
+  width: 640px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.navi_prev {
+  width: 50px;
+  float: left;
+
+}
+
+.navi_next {
+  width: 65px;
+  float: right;
+}
+
+.navi_title {
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 0 1px 1px black;
+}
+
+.prev {
+  padding-top: 10px;
+  padding-left: 15px;
+  display: block;
+  width: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.next {
+  padding-top: 10px;
+  display: block;
+  width:  50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.calendar .day,
+.calendar .today,
+.calendar .inactive,
+.calendar .dayheader,
+.calendar .monheader {
+  float: left;
+  height: 50px;
+  width: 13.97%;
+  border-radius: 8px;
+  border: 0.3px solid white;
+  box-shadow: 10px 10px 5px #007373;
+}
+
+.calendar .monheader {
+  width: 100%;
+  padding-top: 10px;
+  line-height: 30px;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  background: #00b4b4; 
+}
+
+.calendar .dayheader {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  height: 20px;
+  background-color: #007373;
+}
+
+.calendar .day {
+  background-color: #c0c0c0;
+  cursor: pointer;
+}
+
+.calendar .today {
+  background-color: #ff4506;
+  cursor: pointer;
+}
+
+.calendar .inactive {
+  background-color: #e8e8e8 ;
+}
